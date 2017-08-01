@@ -40,7 +40,6 @@ Note: We need to convert the txt file in utf8 format because the markov text gen
 ************************************************************************
 
 Now you are ready for training a bot that talks like you or one of your friends or even better talks like all of you combined.
-
 Open Markov Text Generator folder and follow the other set of README instructions.
 
 ************************************************************************
