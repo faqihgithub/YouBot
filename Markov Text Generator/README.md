@@ -3,14 +3,11 @@ This is a Python implementation of a Markov Text Generator.
 
 A [Markov Text Generator](http://en.wikipedia.org/wiki/Markov_chain) can be used to randomly generate (somewhat) realistic sentences, using words from a source text. Words are joined together in sequence, with each new word being selected based on how often it follows the previous word in the source document.
 
-The results are often just nonsense, but at times can be strangely poetic - the sentences below were generated from the text of The Hitchhikers Guide to the Galaxy:
+The results are often just nonsense, but at times can be strangely poetic - the sentences below were generated from the text of my whatsapp chat
 
-> Bits of perpetual unchangingness.  
-> So long waves of matter, strained, twisted sharply.  
-> So they are going to undulate across him and the species.  
-> The barman reeled for every particle of Gold streaked through her eye.  
-> We've met, haven't they? Look, said Ford never have good time you are merely a receipt.  
-> The silence was delighted.
+> People in Atlanta are really nice and the ice is melting fast  
+> Because you dont know what needs to be done after you are done studying eighteen hours a day
+> Eating ice cream is as tasty as eating dinner 
 
 ### Parsing
 
@@ -25,7 +22,7 @@ The results are often just nonsense, but at times can be strangely poetic - the 
 
 For example:
 
-<pre>python markov.py parse hitchhikers_guide 2 /path/to/hitchhikers.txt
+<pre>python markov.py parse pipeline 2 /path/to/whatsapp.txt
 </pre>
 
 The parsing process may take a while to complete, depending on the size of the input document.</section>
@@ -42,10 +39,9 @@ The parsing process may take a while to complete, depending on the size of the i
 
 For example:
 
-<pre>>python markov.py gen hitchhikers_guide 3
-Look, I can't speak Vogon! You don't need to touch the water
-He frowned, then smiled, then tried to gauge the speed at which they were able to pick up hitch hikers
-The hatchway sealed itself tight, and all the streets around it
+<pre>>python markov.py gen pipeline 3
+Look I cannot come right now else I will have to sleep in the afternoon because sleep is necessary for me
+
 </pre>
 
 </section>
